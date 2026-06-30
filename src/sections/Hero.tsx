@@ -3,7 +3,6 @@ import { TypeAnimation } from "react-type-animation";
 import profile from "../assets/images/profile.jpeg";
 import FloatingBadge from "../components/FloatingBadge";
 import HeroButtons from "../components/HeroButtons";
-import ParticlesBackground from "../components/ParticlesBackground";
 
 function Hero() {
   return (
@@ -56,7 +55,6 @@ function Hero() {
 
           <HeroButtons />
         </motion.div>
-        <ParticlesBackground />
 
         {/* Right Side */}
         <motion.div
